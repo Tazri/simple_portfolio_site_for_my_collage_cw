@@ -1,0 +1,23 @@
+// font
+@font-face {
+    font-family: myrecursive;
+    src: url(./../fonts/Recursive-VariableFont_CASL.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: myrecursive,'recursive',arial;
+    font-weight: 400;
+}
+
+img{
+    width: 100%;
+}
+
+svg{
+    fill: black;
+    width: 100%;
+    height: 100%;
+}

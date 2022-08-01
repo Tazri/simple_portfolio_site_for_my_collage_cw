@@ -1,0 +1,17 @@
+@import 'variable';
+
+button{
+    padding: 8px 20px;
+    background-color: $secoundry_color;
+    border: 1px solid $secoundry_color;
+    color: $primary_color;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+    font-size: 14px;
+
+    &:hover{
+        color: $secoundry_color;
+        background-color: $primary_color;
+    }
+}
