@@ -1,0 +1,47 @@
+/**
+* Name        : file name
+* Author      : auther name
+* Date        : daymonth2022
+* Description : Here costomize all default thing
+*
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: myrecursive, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+img{
+    width: 100%;
+}
+
+button{
+    padding: 5px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.5s linear;
+}
+
+svg{
+    width: 100%;
+    transition: all 0.3s linear;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: myrecursive;
+    src: url(./../fonts/Recursive-VariableFont_CASL.ttf);
+}

@@ -1,0 +1,52 @@
+/**
+* Name        : _dark.scss
+* Author      : MD TAZRI
+* Date        : 2August2022
+* Description : Here modify css color for dark class
+*
+*/
+
+@import './../variables';
+
+.dark{
+    background-color : $dark_bg;
+    color: $dark_text;
+}
+
+.dark button{
+    &:hover{
+        background-color: $dark_bg;
+    }
+}
+
+.dark .home__about--imgdiv{
+    background: $dark_home_imgbg;
+
+    .effect{
+        background: $dark_home_imgeffect;
+    }
+}
+
+.dark .home__scrolldown{
+    color : $home_srcoll_icon;
+
+    &:hover{
+        color: $dark_text;
+    }
+}
+
+.dark .home__icons svg{
+    fill: $home_srcoll_icon;
+
+    &:hover{
+        fill :$dark_text;
+    }
+}
+
+.dark .line{
+    background: $home_srcoll_icon;
+
+    &:hover{
+        background: $dark_text;
+    }
+}

@@ -1,0 +1,26 @@
+/**
+* Name        : _default.scss
+* Author      : MD TAZRI
+* Date        : 2August2022
+* Description : Here contain defalut color styling
+*
+*/
+
+@import './../variables';
+
+button{
+    background: $secoundary_color;
+    border: 1px solid $secoundary_color;
+
+    &:hover{
+        color: $secoundary_color;
+    }
+}
+
+.red{
+    color: $text_red;
+}
+
+.svg{
+    fill: black;
+}

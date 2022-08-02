@@ -1,0 +1,17 @@
+@import 'variables';
+
+// import colors
+@import './colors/default';
+@import './colors/dark';
+
+
+// import default thing
+@import 'default';
+
+// main
+@import './components/main';
+@import './components/home';
+
+
+// medai query
+@import './media/home';

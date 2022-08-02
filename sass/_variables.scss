@@ -1,0 +1,94 @@
+/**
+* Name        : _variable
+* Author      : Md Tazri
+* Date        : 2August2022
+* Description : Here conatain the all variable
+*
+*/
+
+
+// global color
+$text_red : #fb0000;
+$secoundary_color : #4AA7E4;
+$small_text : #5E7C95;
+$home_srcoll_icon : #3F84B1;
+$check_icon : #3F84B1;
+
+/*************************** Dark Theme Color ***************************/
+$dark_body_bg : #201E39;
+$dark_text : #f0f8ff;
+$dark_text_light_mute : #D0E3F3;
+
+// dark home
+$dark_home_imgbg : linear-gradient(180deg, #4AA7E4 0%, #201E39 100%);
+$dark_home_imgeffect : linear-gradient(180deg, rgba(74, 167, 228, 0.05) 23.89%, rgba(50, 89, 131, 0.587673) 60.05%, #201E39 100%);
+
+// dark about
+$dark_about_box_bg : #26234A;
+$dark_about_imgbg : linear-gradient(220.47deg, #201E39 -1.45%, #4AA7E4 52.99%, #201E39 107.83%);
+$dark_about_imgeffect : linear-gradient(220.47deg, rgba(32, 30, 57, 0.74) -1.45%, rgba(74, 167, 228, 0.371285) 52.99%, rgba(74, 167, 228, 0.371285) 53%, rgba(32, 30, 57, 0.74) 107.83%);
+
+// dark skill
+$dark_skill_box_bg : #2B2853;
+
+// dark skill
+$dark_contact_input_box_border : #3F84B1;
+$dark_contact_boxbg : #26234A;
+$dark_skill_small_text : #5E7C95;
+
+// dark navigator
+$dark_bg : #201E39; // 60% opacity
+$dark_icon : #26234A;
+$dark_separator : #26234A;
+$dark_upper_nav : #3D3A60;
+/************************************************************************/
+
+
+/*************************** Light Theme Color ***************************/
+$light_body_bg : #F0F8FF;
+$light_text : #201E39;
+$light_text_light_mute : #26234A;
+
+// light home
+$light_home_imgbg : linear-gradient(180deg, #4AA7E4 0%, #F0F8FF 100%);
+$light_home_imgeffect : linear-gradient(180deg, rgba(74, 167, 228, 0.24) 23.89%, rgba(240, 248, 255, 0.16) 60.05%, #F0F8FF 100%);
+
+// light about
+$light_about_box_bg : #D4EBFF;
+$light_about_imgbg : linear-gradient(220.47deg, #F0F8FF -1.45%, #4AA7E4 52.99%, #F0F8FF 107.83%);
+$light_about_imgeffect : linear-gradient(220.47deg, rgba(240, 248, 255, 0.74) -1.45%, rgba(74, 167, 228, 0.371285) 52.99%, rgba(74, 167, 228, 0.371285) 53%, rgba(240, 248, 255, 0.74) 107.83%);
+
+// light skill
+$light_skill_box_bg : #E1F1FF;
+
+// light skill
+$light_contact_input_box_border : #3F84B1;
+$light_contact_boxbg : #E1F1FF;
+$light_skill_small_text : #5E7C95;
+
+// light navigator
+$light_nav_bg : #CDE5F9; // 16% opacity
+$light_nav_icon : #D4EBFF;
+$light_nav_separator : #f0f8ff;
+/************************************************************************/
+
+/******************************** other *******************************/
+// extra large
+$xl_font_home_im : 16px;
+$xl_font_home_name : 48px;
+$xl_font_home_title : 22px;
+$xl_img_up_radius : 205px;
+
+// large
+$l_font_home_im : 14px;
+$l_font_home_name : 32px;
+$l_font_home_title : 16px;
+$l_img_up_radius : 138px;
+/******************************** ***** *******************************/
+
+/******************** Necessary Function ********************/
+@mixin radius_up($px:120px){
+    border-top-left-radius: $px;
+    border-top-right-radius: $px;
+}
+/************************************************************/

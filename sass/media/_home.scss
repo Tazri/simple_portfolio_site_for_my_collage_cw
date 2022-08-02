@@ -1,0 +1,23 @@
+@import './../variables';
+
+@media only screen and (max-width : 1400px) {
+    .home .home__about .home__about--details{
+        h5{
+            font-size: $l_font_home_im;
+        }
+
+        h2{
+            font-size: $l_font_home_name;
+        }
+
+        h3{
+            font-size: $l_font_home_title;
+        }
+    }
+}
+
+@media only screen and (max-height : 950px) {
+    .home .home__about .home__about--imgdiv{
+        max-width : 300px;
+    }
+}
