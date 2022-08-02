@@ -1,0 +1,37 @@
+/**
+* Name        : _about_box.scss
+* Author      : MD TAZRI
+* Date        : 3August2022
+* Description : Here I Design The About Box except their color.
+*
+*/
+
+.about_box{
+    width: 127px;
+    height: 127px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    // desplaying
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .svgicon{
+        width: 25px;
+    }
+
+    h3{
+        font-size: 17px;
+    }
+
+    p{
+        font-size: 9px;
+    }
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}

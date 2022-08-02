@@ -37,10 +37,10 @@ $dark_contact_boxbg : #26234A;
 $dark_skill_small_text : #5E7C95;
 
 // dark navigator
-$dark_bg : #201E39; // 60% opacity
-$dark_icon : #26234A;
-$dark_separator : #26234A;
-$dark_upper_nav : #3D3A60;
+$dark_nav_bg : #090726; // 60% opacity
+$dark_nav_icon : #26234A;
+$dark_nav_separator : #26234A;
+$dark_nav_upper_nav : #3D3A60;
 /************************************************************************/
 
 
@@ -70,6 +70,7 @@ $light_skill_small_text : #5E7C95;
 $light_nav_bg : #CDE5F9; // 16% opacity
 $light_nav_icon : #D4EBFF;
 $light_nav_separator : #f0f8ff;
+$light_upper_nav : none;
 /************************************************************************/
 
 /******************************** other *******************************/
@@ -78,12 +79,26 @@ $xl_font_home_im : 16px;
 $xl_font_home_name : 48px;
 $xl_font_home_title : 22px;
 $xl_img_up_radius : 205px;
+$xl_title_hfour : 15px;
+$xl_title_htwo : 30px;
+$xl_about_img : 304px;
 
 // large
 $l_font_home_im : 14px;
 $l_font_home_name : 32px;
 $l_font_home_title : 16px;
 $l_img_up_radius : 138px;
+$l_title_hfour : 12px;
+$l_title_htwo : 24px;
+$l_about_img : 270px;
+
+// small
+$s_title_hfour : 8px;
+$s_title_htwo : 17px;
+$s_about_img : 245px;
+
+// extra small
+$xs_about_img : 193px;
 /******************************** ***** *******************************/
 
 /******************** Necessary Function ********************/

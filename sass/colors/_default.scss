@@ -8,19 +8,14 @@
 
 @import './../variables';
 
-button{
-    background: $secoundary_color;
-    border: 1px solid $secoundary_color;
-
-    &:hover{
-        color: $secoundary_color;
-    }
-}
-
 .red{
     color: $text_red;
 }
 
 .svg{
     fill: black;
+}
+
+.muted-text{
+    color : $small_text;
 }

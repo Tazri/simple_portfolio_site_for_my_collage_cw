@@ -10,8 +10,18 @@
 
 // main
 @import './components/main';
+
+// home
 @import './components/home';
 
+// title
+@import './components/title';
+
+// about
+@import './components/about';
+@import './components/about_box';
 
 // medai query
 @import './media/home';
+@import './media/title';
+@import './media/about';

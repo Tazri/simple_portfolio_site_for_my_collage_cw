@@ -1,0 +1,33 @@
+/**
+* Name        : _title.scss
+* Author      : MD TAZRI
+* Date        : 3August2022
+* Description : Here media query of .title class components
+*
+*/
+
+@import './../variables';
+
+@media (max-width: 600px) {
+    .title{
+        h2{
+            font-size: $l_title_htwo;
+        }
+
+        h4{
+            font-size: $l_title_hfour;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .title{
+        h2{
+            font-size: $s_title_htwo;
+        }
+
+        h4{
+            font-size: $s_title_hfour;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+/**
+* Name        : _about.scss
+* Author      : MD TAZRI
+* Date        : 3August2022
+* Description : Here mequary is .about component
+*
+*/
+
+@import './../variables';
+
+
+@media (max-width: 1200px) {
+    .about{
+        .about__imgdiv{
+            min-width: $l_about_img;
+            width: $l_about_img;
+            min-height: $l_about_img;
+            height: $l_about_img;
+        }
+    }
+}
+
+@media (max-width : 950px) {
+
+    .about{
+        flex-direction: column;
+        
+        .about__imgdiv{
+            min-width: $s_about_img;
+            width: $s_about_img;
+            min-height: $s_about_img;
+            height: $s_about_img;
+
+            justify-content: center;
+        }
+
+        .about_boxs{
+            margin-top: 60px;
+            justify-content: center;
+        }
+
+        .about__details{
+            text-align: center;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .about{
+        .about__imgdiv{
+            min-width: $xs_about_img;
+            width: $xs_about_img;
+            min-height: $xs_about_img;
+            height: $xs_about_img;
+        }
+    }
+}
+
+@media (max-width: 300px) {
+    .about__details .details {
+        text-align: justify;
+        text-align-last: center;
+    }
+}

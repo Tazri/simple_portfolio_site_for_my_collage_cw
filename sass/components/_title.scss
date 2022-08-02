@@ -1,0 +1,21 @@
+/**
+* Name        : _title.scss
+* Author      : MD TAZRI
+* Date        : 3August2022
+* Description : Hre I Designing the title execpt their color
+*
+*/
+
+@import './../variables';
+
+.title{
+    margin: 40px auto;
+    text-align: center;
+    h4{
+        font-size: $xl_title_hfour;
+    }
+
+    h2{
+        font-size: $xl_title_htwo;
+    }
+}

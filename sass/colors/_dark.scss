@@ -8,14 +8,36 @@
 
 @import './../variables';
 
+
+/*********************** home ***********************/
 .dark{
-    background-color : $dark_bg;
+    background-color : $dark_body_bg;
     color: $dark_text;
 }
 
 .dark button{
+    color: $dark_body_bg;
+    background: $secoundary_color;
+    border: 1px solid $secoundary_color;
+
     &:hover{
-        background-color: $dark_bg;
+        color: $secoundary_color;
+    }
+}
+
+.dark button{
+    &:hover{
+        background-color: $dark_body_bg;
+    }
+}
+
+.dark .home__about--btns .cv{
+    background-color: $dark_body_bg;
+    color: $secoundary_color;
+
+    &:hover{
+        background-color: $secoundary_color;
+        color: $dark_body_bg;
     }
 }
 
@@ -50,3 +72,42 @@
         background: $dark_text;
     }
 }
+/*********************** **** ***********************/
+
+/*********************** title **********************/
+.dark .title{
+    h4{
+        color: $dark_text_light_mute;
+    }
+
+    h2{
+        color: $dark_text;
+    }
+}
+/*********************** ***** **********************/
+
+/********************* about_box ********************/
+.dark .about__imgdiv{
+    background: $dark_about_imgbg;
+
+    .effect{
+        background: $dark_about_imgeffect;
+    }
+}
+
+.dark .about_box{
+    background-color: $dark_about_box_bg;
+
+    h3{
+        color: $dark_text;
+    }
+
+    svg{
+        fill: $secoundary_color;
+    }
+}
+
+.dark .about__details .details{
+    color: $dark_text;
+}
+/********************* ********* ********************/

@@ -1,6 +1,6 @@
 @import './../variables';
 
-@media only screen and (max-width : 1400px) {
+@media (max-width : 1400px) {
     .home .home__about .home__about--details{
         h5{
             font-size: $l_font_home_im;
@@ -16,8 +16,34 @@
     }
 }
 
-@media only screen and (max-height : 950px) {
+@media (max-width : 600px) {
+    .home .home__about .home__about--imgdiv{
+        max-width : 276px;
+    }
+}
+
+
+@media (max-height : 950px) {
     .home .home__about .home__about--imgdiv{
         max-width : 300px;
+    }
+}
+
+@media (max-height : 700px) {
+    .home .home__about .home__about--imgdiv{
+        max-width : 270px;
+        width: 70%;
+    }
+}
+
+@media (max-height : 580px) {
+    .home .home__about .home__about--imgdiv{
+        width: 50%;
+    }
+}
+
+@media (max-height : 400px) {
+    .home .home__about .home__about--imgdiv{
+        width: 30%;
     }
 }
