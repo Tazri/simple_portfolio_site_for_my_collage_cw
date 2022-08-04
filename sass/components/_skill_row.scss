@@ -12,8 +12,8 @@
     // displaying
     display: flex;
     flex-flow: row wrap;
-    flex-basis: 98px;
-    max-width: 139px;
+    flex-basis: 140px;
+    max-width: 145px;
     justify-content: flex-start;
     align-items: center;
 
@@ -35,3 +35,6 @@
         }
     }
 }
+
+// add media query
+@import './../media/skill_row';

@@ -1,0 +1,31 @@
+/**
+* Name        : _skill_row.scss
+* Author      : MD TAZRI
+* Date        : 4August2022
+* Description : Here media query for .skill_row class
+*
+*/
+
+@import './../variables';
+
+@media (max-width : 386px) {
+    .skill__rows .row{
+    
+        // icon
+        .svgicon{
+            @include height_width($xs_skill_check_icon_size);
+        }
+    
+        // design the skill which is name after check box
+        .skill_name{
+            h3 {
+                font-size: $xs_skill_check_name_font_size;
+            }
+    
+            p{
+                font-size: $xs_skill_check_title_font_size;
+            }
+        }
+    }
+    
+}

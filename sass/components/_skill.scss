@@ -6,10 +6,14 @@
 *
 */ 
 
+@import './../variables';
 @import './skill_row';
 
 .skill{
-    .title{
-        margin: 30px;
-    }
+    border: 1px solid aliceblue;
+    // displaying
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-evenly;
+
 }

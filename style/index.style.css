@@ -167,6 +167,13 @@
   color: #D0E3F3;
 }
 
+.dark .skill__box {
+  background-color: #2B2853;
+}
+.dark .skill__box h2 {
+  color: #4AA7E4;
+}
+
 /*********************** ***** **********************/
 /**
 * Name        : file name
@@ -476,12 +483,92 @@ main {
 }
 
 /**
+* Name        : _skill_rows.scss
+* Author      : MD TAZRI
+* Date        : 4August2022
+* Description : Here Designing the .skill_rows class
+*
+*/
+/**
+* Name        : _variable
+* Author      : Md Tazri
+* Date        : 2August2022
+* Description : Here conatain the all variable
+*
+*/
+/*************************** Dark Theme Color ***************************/
+/************************************************************************/
+/*************************** Light Theme Color ***************************/
+/************************************************************************/
+/******************************** other *******************************/
+/******************************** ***** *******************************/
+/******************** Necessary Function ********************/
+/************************************************************/
+.skill__rows {
+  max-width: 300px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 6px 5px;
+}
+
+/**
+* Name        : _skill_box.scss
+* Author      : MD Tazri
+* Date        : 4August2022
+* Description : Here Design the skill box
+*
+*/
+/**
+* Name        : _variable
+* Author      : Md Tazri
+* Date        : 2August2022
+* Description : Here conatain the all variable
+*
+*/
+/*************************** Dark Theme Color ***************************/
+/************************************************************************/
+/*************************** Light Theme Color ***************************/
+/************************************************************************/
+/******************************** other *******************************/
+/******************************** ***** *******************************/
+/******************** Necessary Function ********************/
+/************************************************************/
+.skill__box {
+  max-width: 507px;
+  display: flex;
+  flex-flow: column wrap;
+  flex-basis: 304px;
+  align-items: center;
+  padding: 20px 20px;
+  border-radius: 15px;
+}
+.skill__box h2 {
+  margin-bottom: 20px;
+}
+
+/**
 * Name        : _skill.scess
 * Author      : MD TAZRI
 * Date        : 3August2022
 * Description : Here I designing the .skill class except color
 *
 */
+/**
+* Name        : _variable
+* Author      : Md Tazri
+* Date        : 2August2022
+* Description : Here conatain the all variable
+*
+*/
+/*************************** Dark Theme Color ***************************/
+/************************************************************************/
+/*************************** Light Theme Color ***************************/
+/************************************************************************/
+/******************************** other *******************************/
+/******************************** ***** *******************************/
+/******************** Necessary Function ********************/
+/************************************************************/
 /**
 * Name        : _skill_row.scss
 * Author      : MD TAZRI
@@ -507,8 +594,8 @@ main {
 .skill__rows .row {
   display: flex;
   flex-flow: row wrap;
-  flex-basis: 98px;
-  max-width: 139px;
+  flex-basis: 140px;
+  max-width: 145px;
   justify-content: flex-start;
   align-items: center;
 }
@@ -524,8 +611,45 @@ main {
   font-size: 10px;
 }
 
-.skill .title {
-  margin: 30px;
+/**
+* Name        : _skill_row.scss
+* Author      : MD TAZRI
+* Date        : 4August2022
+* Description : Here media query for .skill_row class
+*
+*/
+/**
+* Name        : _variable
+* Author      : Md Tazri
+* Date        : 2August2022
+* Description : Here conatain the all variable
+*
+*/
+/*************************** Dark Theme Color ***************************/
+/************************************************************************/
+/*************************** Light Theme Color ***************************/
+/************************************************************************/
+/******************************** other *******************************/
+/******************************** ***** *******************************/
+/******************** Necessary Function ********************/
+/************************************************************/
+@media (max-width: 386px) {
+  .skill__rows .row .svgicon {
+    width: 15px;
+    height: 15px;
+  }
+  .skill__rows .row .skill_name h3 {
+    font-size: 14px;
+  }
+  .skill__rows .row .skill_name p {
+    font-size: 8px;
+  }
+}
+.skill {
+  border: 1px solid aliceblue;
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: space-evenly;
 }
 
 /**

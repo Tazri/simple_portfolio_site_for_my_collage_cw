@@ -1,0 +1,20 @@
+/**
+* Name        : _skill_rows.scss
+* Author      : MD TAZRI
+* Date        : 4August2022
+* Description : Here Designing the .skill_rows class
+*
+*/
+
+@import './../variables';
+
+.skill__rows{
+    // sizing
+    max-width: $xl_skill_rows_width;
+    
+    // displaying
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 6px 5px;
+}

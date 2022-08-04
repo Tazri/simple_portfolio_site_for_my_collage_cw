@@ -119,4 +119,12 @@
         color : $dark_text_light_mute;
     }
 }
+
+.dark .skill__box{
+    background-color: $dark_skill_box_bg;
+
+    h2{
+        color: $secoundary_color;
+    }
+}
 /*********************** ***** **********************/
