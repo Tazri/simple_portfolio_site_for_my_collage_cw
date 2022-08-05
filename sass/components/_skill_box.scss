@@ -10,17 +10,22 @@
 
 .skill__box{
     // sizing
+    width: 50%;
     max-width : $xl_skill_box_width;
 
     // displaying
     display: flex;
     flex-flow: column wrap;
-    flex-basis: $s_skill_box_width;
+    min-width: $s_skill_box_width;
     align-items: center;
-    padding: 20px 20px;
+    padding: 20px 10px;
+    padding-bottom: 40px;
     border-radius: 15px;
 
     h2{
         margin-bottom: 20px;
     }
 }
+
+// media query
+@import './../media/skill_box';

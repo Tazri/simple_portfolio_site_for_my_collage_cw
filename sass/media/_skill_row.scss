@@ -8,7 +8,7 @@
 
 @import './../variables';
 
-@media (max-width : 386px) {
+@media (max-width : 616px) {
     .skill__rows .row{
     
         // icon
@@ -27,5 +27,11 @@
             }
         }
     }
-    
+
+}
+
+@media (max-width : 510px) {
+    .skill__rows .row{
+        flex-basis: 112px;
+    }
 }

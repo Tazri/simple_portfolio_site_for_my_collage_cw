@@ -513,6 +513,30 @@ main {
 }
 
 /**
+* Name        : _skill_rows.scss
+* Author      : MD TAZRI
+* Date        : 5August2022
+* Description : Here media query of skill rows
+*
+*/
+@media (max-width: 450px) {
+  .skill__rows {
+    max-width: none;
+    width: 100%;
+    gap: 10px 60px;
+  }
+}
+@media (max-width: 313px) {
+  .skill__rows {
+    gap: 10px 6px;
+  }
+}
+@media (max-width: 283px) {
+  .skill__rows {
+    justify-content: center;
+  }
+}
+/**
 * Name        : _skill_box.scss
 * Author      : MD Tazri
 * Date        : 4August2022
@@ -535,18 +559,43 @@ main {
 /******************** Necessary Function ********************/
 /************************************************************/
 .skill__box {
+  width: 50%;
   max-width: 507px;
   display: flex;
   flex-flow: column wrap;
-  flex-basis: 304px;
+  min-width: 304px;
   align-items: center;
-  padding: 20px 20px;
+  padding: 20px 10px;
+  padding-bottom: 40px;
   border-radius: 15px;
 }
 .skill__box h2 {
   margin-bottom: 20px;
 }
 
+/**
+* Name        : _skill_box.scss
+* Author      : MD TAZRI
+* Date        : 5August2022
+* Description : Here media query of .skill__box class components
+*
+*/
+@media (max-width: 655px) {
+  .skill .skill__box {
+    width: 98%;
+  }
+}
+@media (max-width: 362px) {
+  .skill .skill__box {
+    width: 90%;
+  }
+}
+@media (max-width: 312px) {
+  .skill .skill__box {
+    min-width: 107px;
+    width: auto;
+  }
+}
 /**
 * Name        : _skill.scess
 * Author      : MD TAZRI
@@ -633,7 +682,7 @@ main {
 /******************************** ***** *******************************/
 /******************** Necessary Function ********************/
 /************************************************************/
-@media (max-width: 386px) {
+@media (max-width: 616px) {
   .skill__rows .row .svgicon {
     width: 15px;
     height: 15px;
@@ -645,13 +694,40 @@ main {
     font-size: 8px;
   }
 }
+@media (max-width: 510px) {
+  .skill__rows .row {
+    flex-basis: 112px;
+  }
+}
 .skill {
   border: 1px solid aliceblue;
   display: flex;
   flex-direction: row wrap;
   justify-content: space-evenly;
+  align-items: stretch;
+  gap: 20px 20px;
+  padding: 0px 7px;
 }
 
+/**
+* Name        : _skill.scss
+* Author      : MD TAZRI
+* Date        : 5August2022
+* Description : Here media query of .skill class components
+*
+*/
+@media (max-width: 795px) {
+  .skill {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 312px) {
+  .skill {
+    padding: 0px 16px;
+  }
+}
 /**
 * Name        : _variable
 * Author      : Md Tazri
