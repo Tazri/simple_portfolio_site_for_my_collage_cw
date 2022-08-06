@@ -128,3 +128,38 @@
     }
 }
 /*********************** ***** **********************/
+
+
+/********************** contact *********************/
+
+.dark .contact__appboxs{
+    .appbox{
+        background-color: $dark_contact_boxbg;
+
+        .svgicon svg{
+            fill : $dark_text;
+        }
+
+        h4 a{
+            color: $secoundary_color;
+
+            &:hover{
+                color: $dark_text;
+            }
+        }
+    }
+}
+
+.dark .contact__inputboxs{
+    
+    input,textarea{
+        background-color: $dark_body_bg;
+        border: 2px solid $secoundary_color;
+        color: $dark_text;
+
+        &:focus{
+            border: 2px solid $dark_text;
+        }
+    }
+}
+/********************** ******* *********************/

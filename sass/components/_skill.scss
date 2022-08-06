@@ -14,10 +14,9 @@
     // displaying
     display: flex;
     flex-direction: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: stretch;
-    gap: 20px 20px;
-    padding : 0px 7px;
+    gap: 20px 60px;
 }
 
 // media query

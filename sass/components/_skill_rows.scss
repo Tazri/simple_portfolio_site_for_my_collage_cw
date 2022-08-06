@@ -10,13 +10,13 @@
 
 .skill__rows{
     // sizing
-    max-width: $xl_skill_rows_width;
+    width: 100%;
     
     // displaying
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    gap: 6px 5px;
+    gap: 14px 30px;
 }
 
 @import './../media/skill_rows';

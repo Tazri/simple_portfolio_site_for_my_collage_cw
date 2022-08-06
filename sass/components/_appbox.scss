@@ -1,0 +1,45 @@
+/**
+* Name        : _appbox.scss
+* Author      : MD TAZRI
+* Date        : 6August2022
+* Description : Here desiging the app box
+*
+*/
+
+@import './../variables';
+
+.appbox{
+    max-width: 100%;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+
+    .svgicon{
+        width : $l_appbox_icon_size;
+        margin: 0px auto;
+        margin-bottom: 5px;
+    }
+
+    h3{
+        font-size: $l_appbox_appname_font_size;
+    }
+
+    h5{
+        font-size: $l_appbox_appname_address;
+    }
+
+    h4{
+        margin-top: 30px;
+        font-size: $l_appbox_appname_sendmessage;
+        transition: all 0.3s linear;
+
+        &:hover{
+            transform: translate(0px,-5px);
+        }
+    }
+
+    a{
+        cursor: pointer;
+    }
+}

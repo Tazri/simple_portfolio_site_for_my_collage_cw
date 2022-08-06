@@ -1,0 +1,44 @@
+/**
+* Name        : _contact.scss
+* Author      : MD TAZRI
+* Date        : 6August2022
+* Description : Here media query of .contact class components
+*
+*/
+
+@media (max-width : 1125px) {
+    .contact{
+        padding-left: 7px;
+    }
+}
+
+@media (max-width: 780px) {
+    .contact{
+        padding: 0px 10px;
+        justify-content: center;
+        gap: 50px 0px;
+    }
+
+    .contact__inputboxs{
+        // sizing
+        max-width: none;
+        width: 100%;
+        align-items: center;
+
+        // input,textarea{
+        //     border-radius: 6px;
+        //     display: block;
+        //     padding: 10px;
+        //     width: 100%;
+        //     font-size: $l_contact_input_font_size;
+        //     transition: all 0.2s linear;
+        //     padding: 9px 12px;
+        // }
+    }
+
+    .contact__appboxs{
+        order: -1;
+        max-width: 290px;
+        width: 100%;
+    }
+}

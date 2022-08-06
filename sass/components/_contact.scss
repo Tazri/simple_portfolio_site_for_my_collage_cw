@@ -1,0 +1,25 @@
+/**
+* Name        : _contact.scss
+* Author      : MD TAZRI
+* Date        : 6August2022
+* Description : Here designing the .contact class components
+*
+*/
+
+@import './../variables';
+
+
+.contact{
+    border: 1px solid orchid;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+// import other components
+@import './inputboxs';
+@import './appboxs';
+@import './appbox';
+
+// import media query
+@import './../media/contact';

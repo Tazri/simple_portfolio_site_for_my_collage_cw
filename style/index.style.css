@@ -175,6 +175,30 @@
 }
 
 /*********************** ***** **********************/
+/********************** contact *********************/
+.dark .contact__appboxs .appbox {
+  background-color: #26234A;
+}
+.dark .contact__appboxs .appbox .svgicon svg {
+  fill: #f0f8ff;
+}
+.dark .contact__appboxs .appbox h4 a {
+  color: #4AA7E4;
+}
+.dark .contact__appboxs .appbox h4 a:hover {
+  color: #f0f8ff;
+}
+
+.dark .contact__inputboxs input, .dark .contact__inputboxs textarea {
+  background-color: #201E39;
+  border: 2px solid #4AA7E4;
+  color: #f0f8ff;
+}
+.dark .contact__inputboxs input:focus, .dark .contact__inputboxs textarea:focus {
+  border: 2px solid #f0f8ff;
+}
+
+/********************** ******* *********************/
 /**
 * Name        : file name
 * Author      : auther name
@@ -216,6 +240,10 @@ svg {
 
 a {
   text-decoration: none;
+}
+
+input:focus, textarea:focus {
+  outline: none;
 }
 
 @font-face {
@@ -505,11 +533,11 @@ main {
 /******************** Necessary Function ********************/
 /************************************************************/
 .skill__rows {
-  max-width: 300px;
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  gap: 6px 5px;
+  gap: 14px 30px;
 }
 
 /**
@@ -560,12 +588,12 @@ main {
 /************************************************************/
 .skill__box {
   width: 50%;
-  max-width: 507px;
+  max-width: 607px;
   display: flex;
   flex-flow: column wrap;
-  min-width: 304px;
+  min-width: 404px;
   align-items: center;
-  padding: 20px 10px;
+  padding: 20px 40px;
   padding-bottom: 40px;
   border-radius: 15px;
 }
@@ -580,20 +608,35 @@ main {
 * Description : Here media query of .skill__box class components
 *
 */
-@media (max-width: 655px) {
+@media (max-width: 820px) {
+  .skill .skill__box {
+    padding: 20px 20px;
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 790px) {
+  .skill .skill__box {
+    padding: 20px 40px;
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 658px) {
   .skill .skill__box {
     width: 98%;
+    padding: 20px 80px;
+    padding-bottom: 40px;
   }
 }
-@media (max-width: 362px) {
+@media (max-width: 450px) {
   .skill .skill__box {
-    width: 90%;
+    padding: 20px 15px;
+    padding-bottom: 40px;
+    min-width: 100%;
   }
 }
-@media (max-width: 312px) {
+@media (max-width: 334px) {
   .skill .skill__box {
-    min-width: 107px;
-    width: auto;
+    padding: 20px 12px;
   }
 }
 /**
@@ -703,10 +746,9 @@ main {
   border: 1px solid aliceblue;
   display: flex;
   flex-direction: row wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: stretch;
-  gap: 20px 20px;
-  padding: 0px 7px;
+  gap: 20px 60px;
 }
 
 /**
@@ -716,7 +758,22 @@ main {
 * Description : Here media query of .skill class components
 *
 */
-@media (max-width: 795px) {
+@media (max-width: 1150px) {
+  .skill {
+    padding: 0px 7px;
+  }
+}
+@media (max-width: 982px) {
+  .skill {
+    gap: 20px 40px;
+  }
+}
+@media (max-width: 870px) {
+  .skill {
+    gap: 20px 10px;
+  }
+}
+@media (max-width: 843px) {
   .skill {
     flex-direction: column;
     align-items: center;
@@ -726,6 +783,187 @@ main {
 @media (max-width: 312px) {
   .skill {
     padding: 0px 16px;
+  }
+}
+/**
+* Name        : _contact.scss
+* Author      : MD TAZRI
+* Date        : 6August2022
+* Description : Here designing the .contact class components
+*
+*/
+/**
+* Name        : _variable
+* Author      : Md Tazri
+* Date        : 2August2022
+* Description : Here conatain the all variable
+*
+*/
+/*************************** Dark Theme Color ***************************/
+/************************************************************************/
+/*************************** Light Theme Color ***************************/
+/************************************************************************/
+/******************************** other *******************************/
+/******************************** ***** *******************************/
+/******************** Necessary Function ********************/
+/************************************************************/
+.contact {
+  border: 1px solid orchid;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+/**
+* Name        : _inputboxs.scss
+* Author      : MD TAZRI
+* Date        : 6August2022
+* Description : Here Designing the inputboxs
+*
+*/
+/**
+* Name        : _variable
+* Author      : Md Tazri
+* Date        : 2August2022
+* Description : Here conatain the all variable
+*
+*/
+/*************************** Dark Theme Color ***************************/
+/************************************************************************/
+/*************************** Light Theme Color ***************************/
+/************************************************************************/
+/******************************** other *******************************/
+/******************************** ***** *******************************/
+/******************** Necessary Function ********************/
+/************************************************************/
+.contact__inputboxs {
+  max-width: 598px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  width: 70%;
+  align-items: flex-start;
+}
+.contact__inputboxs input, .contact__inputboxs textarea {
+  border-radius: 6px;
+  display: block;
+  padding: 10px;
+  width: 100%;
+  font-size: 20px;
+  transition: all 0.2s linear;
+  padding: 9px 12px;
+}
+
+/**
+* Name        : _appboxs.scss
+* Author      : MD TAZRI
+* Date        : 6August2022
+* Description : Here designing the appboxs
+*
+*/
+/**
+* Name        : _variable
+* Author      : Md Tazri
+* Date        : 2August2022
+* Description : Here conatain the all variable
+*
+*/
+/*************************** Dark Theme Color ***************************/
+/************************************************************************/
+/*************************** Light Theme Color ***************************/
+/************************************************************************/
+/******************************** other *******************************/
+/******************************** ***** *******************************/
+/******************** Necessary Function ********************/
+/************************************************************/
+.contact__appboxs {
+  width: 209px;
+  padding: 5px;
+  border: 1px solid purple;
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0px;
+}
+
+/**
+* Name        : _appbox.scss
+* Author      : MD TAZRI
+* Date        : 6August2022
+* Description : Here desiging the app box
+*
+*/
+/**
+* Name        : _variable
+* Author      : Md Tazri
+* Date        : 2August2022
+* Description : Here conatain the all variable
+*
+*/
+/*************************** Dark Theme Color ***************************/
+/************************************************************************/
+/*************************** Light Theme Color ***************************/
+/************************************************************************/
+/******************************** other *******************************/
+/******************************** ***** *******************************/
+/******************** Necessary Function ********************/
+/************************************************************/
+.appbox {
+  max-width: 100%;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 7px;
+  border-radius: 10px;
+}
+.appbox .svgicon {
+  width: 21px;
+  margin: 0px auto;
+  margin-bottom: 5px;
+}
+.appbox h3 {
+  font-size: 16px;
+}
+.appbox h5 {
+  font-size: 11px;
+}
+.appbox h4 {
+  margin-top: 30px;
+  font-size: 12px;
+  transition: all 0.3s linear;
+}
+.appbox h4:hover {
+  transform: translate(0px, -5px);
+}
+.appbox a {
+  cursor: pointer;
+}
+
+/**
+* Name        : _contact.scss
+* Author      : MD TAZRI
+* Date        : 6August2022
+* Description : Here media query of .contact class components
+*
+*/
+@media (max-width: 1125px) {
+  .contact {
+    padding-left: 7px;
+  }
+}
+@media (max-width: 780px) {
+  .contact {
+    padding: 0px 10px;
+    justify-content: center;
+    gap: 50px 0px;
+  }
+  .contact__inputboxs {
+    max-width: none;
+    width: 100%;
+    align-items: center;
+  }
+  .contact__appboxs {
+    order: -1;
+    max-width: 290px;
+    width: 100%;
   }
 }
 /**

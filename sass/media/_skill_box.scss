@@ -6,21 +6,40 @@
 *
 */
 
-@media (max-width : 655px) {
+@media (max-width : 820px) {
+    .skill .skill__box{
+        padding: 20px 20px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width : 790px) {
+    .skill .skill__box{
+        padding: 20px 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width : 658px) {
     .skill .skill__box{
         width: 98%;
+        padding: 20px 80px;
+        padding-bottom: 40px;
     }
 }
 
-@media (max-width : 362px){
+@media (max-width : 450px) {
     .skill .skill__box{
-        width: 90%;
+        padding: 20px 15px;
+        padding-bottom: 40px;
+        min-width: 100%;
     }
 }
 
-@media (max-width : 312px){
+
+@media (max-width : 334px){
     .skill .skill__box{
-        min-width: 107px;
-        width: auto;
+        padding: 20px 12px;
+
     }
 }

@@ -1,0 +1,18 @@
+/**
+* Name        : _appboxs.scss
+* Author      : MD TAZRI
+* Date        : 6August2022
+* Description : Here designing the appboxs
+*
+*/
+
+@import './../variables';
+
+.contact__appboxs{
+    width: $l_appbox_width_size + 10px;
+    padding: 5px;
+    border: 1px solid purple;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+}

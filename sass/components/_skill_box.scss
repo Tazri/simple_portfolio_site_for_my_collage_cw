@@ -16,9 +16,9 @@
     // displaying
     display: flex;
     flex-flow: column wrap;
-    min-width: $s_skill_box_width;
+    min-width: $s_skill_box_width + 100px;
     align-items: center;
-    padding: 20px 10px;
+    padding: 20px 40px;
     padding-bottom: 40px;
     border-radius: 15px;
 
