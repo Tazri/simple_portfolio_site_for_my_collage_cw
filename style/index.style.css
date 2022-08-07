@@ -51,6 +51,10 @@
   fill: #4AA7E4;
 }
 
+footer {
+  background-color: #4AA7E4;
+}
+
 /**
 * Name        : _dark.scss
 * Author      : MD TAZRI
@@ -129,6 +133,16 @@
   background: #f0f8ff;
 }
 
+.dark .home__uppernav {
+  color: #3D3A60;
+}
+.dark .home__uppernav span a {
+  color: #3D3A60;
+}
+.dark .home__uppernav span a:hover {
+  color: #f0f8ff;
+}
+
 /*********************** **** ***********************/
 /*********************** title **********************/
 .dark .title h4 {
@@ -199,6 +213,200 @@
 }
 
 /********************** ******* *********************/
+/********************** footer **********************/
+.dark .footer {
+  color: #201E39;
+}
+.dark .footer .footer__nav a {
+  color: #201E39;
+}
+.dark .footer .footer__nav a:hover {
+  color: #f0f8ff;
+}
+.dark .footer ul li a svg {
+  fill: #201E39;
+}
+.dark .footer ul li a svg:hover {
+  fill: #f0f8ff;
+}
+
+/********************** ****** *********************/
+/**
+* Name        : _light.scss
+* Author      : MD TAZRI
+* Date        : 7August2022
+* Description : Here modify css color for light class
+*
+*/
+/**
+* Name        : _variable
+* Author      : Md Tazri
+* Date        : 2August2022
+* Description : Here conatain the all variable
+*
+*/
+/*************************** Dark Theme Color ***************************/
+/************************************************************************/
+/*************************** Light Theme Color ***************************/
+/************************************************************************/
+/******************************** other *******************************/
+/******************************** ***** *******************************/
+/******************** Necessary Function ********************/
+/************************************************************/
+/*********************** home ***********************/
+.light {
+  background-color: #F0F8FF;
+  color: #201E39;
+}
+
+.light button {
+  color: #F0F8FF;
+  background: #4AA7E4;
+  border: 1px solid #4AA7E4;
+}
+.light button:hover {
+  color: #4AA7E4;
+}
+
+.light button:hover {
+  background-color: #F0F8FF;
+}
+
+.light .home__about--btns .cv {
+  background-color: #F0F8FF;
+  color: #4AA7E4;
+}
+.light .home__about--btns .cv:hover {
+  background-color: #4AA7E4;
+  color: #F0F8FF;
+}
+
+.light .home__about--imgdiv {
+  background: linear-gradient(180deg, #4AA7E4 0%, #F0F8FF 100%);
+}
+.light .home__about--imgdiv .effect {
+  background: linear-gradient(180deg, rgba(74, 167, 228, 0.24) 23.89%, rgba(240, 248, 255, 0.16) 60.05%, #F0F8FF 100%);
+}
+
+.light .home__scrolldown {
+  color: #3F84B1;
+}
+.light .home__scrolldown:hover {
+  color: #201E39;
+}
+
+.light .home__icons svg {
+  fill: #3F84B1;
+}
+.light .home__icons svg:hover {
+  fill: #201E39;
+}
+
+.light .line {
+  background: #3F84B1;
+}
+.light .line:hover {
+  background: #201E39;
+}
+
+.light .home__uppernav {
+  color: none;
+}
+.light .home__uppernav span a {
+  color: none;
+}
+.light .home__uppernav span a:hover {
+  color: #4AA7E4;
+}
+
+/*********************** **** ***********************/
+/*********************** title **********************/
+.light .title h4 {
+  color: #26234A;
+}
+.light .title h2 {
+  color: #201E39;
+}
+
+/*********************** ***** **********************/
+/********************* about_box ********************/
+.light .about__imgdiv {
+  background: linear-gradient(220.47deg, #F0F8FF -1.45%, #4AA7E4 52.99%, #F0F8FF 107.83%);
+}
+.light .about__imgdiv .effect {
+  background: linear-gradient(220.47deg, rgba(240, 248, 255, 0.74) -1.45%, rgba(74, 167, 228, 0.371285) 52.99%, rgba(74, 167, 228, 0.371285) 53%, rgba(240, 248, 255, 0.74) 107.83%);
+}
+
+.light .about_box {
+  background-color: #D4EBFF;
+}
+.light .about_box h3 {
+  color: #201E39;
+}
+.light .about_box svg {
+  fill: #4AA7E4;
+}
+
+.light .about__details .details {
+  color: #201E39;
+}
+
+/********************* ********* ********************/
+/*********************** skill **********************/
+.light .skill__rows .row .skill_name {
+  color: #26234A;
+}
+
+.light .skill__box {
+  background-color: #E1F1FF;
+}
+.light .skill__box h2 {
+  color: #4AA7E4;
+}
+
+/*********************** ***** **********************/
+/********************** contact *********************/
+.light .contact__appboxs .appbox {
+  background-color: #E1F1FF;
+}
+.light .contact__appboxs .appbox .svgicon svg {
+  fill: #201E39;
+}
+.light .contact__appboxs .appbox h4 a {
+  color: #4AA7E4;
+}
+.light .contact__appboxs .appbox h4 a:hover {
+  color: #201E39;
+}
+
+.light .contact__inputboxs input, .light .contact__inputboxs textarea {
+  background-color: #F0F8FF;
+  border: 2px solid #4AA7E4;
+  color: #201E39;
+}
+.light .contact__inputboxs input:focus, .light .contact__inputboxs textarea:focus {
+  border: 2px solid #201E39;
+}
+
+/********************** ******* *********************/
+/********************** footer **********************/
+.light .footer {
+  color: #F0F8FF;
+}
+.light .footer .footer__nav a {
+  color: #F0F8FF;
+}
+.light .footer .footer__nav a:hover {
+  color: #201E39;
+}
+.light .footer ul li a svg {
+  fill: #F0F8FF;
+}
+.light .footer ul li a svg:hover {
+  fill: #201E39;
+}
+
+/********************** ****** *********************/
 /**
 * Name        : file name
 * Author      : auther name
@@ -212,7 +420,8 @@
   box-sizing: border-box;
   font-family: myrecursive, Arial, Helvetica, sans-serif;
   font-weight: 400;
-  transition: all 0.5s linear;
+  transition: all 0.3s linear;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -240,6 +449,7 @@ svg {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 input:focus, textarea:focus {
@@ -250,6 +460,10 @@ input:focus, textarea:focus {
   font-family: myrecursive;
   src: url(./../fonts/Recursive-VariableFont_CASL.ttf);
 }
+footer {
+  width: 100vw;
+}
+
 /**
 * Name        : _main.scss
 * Author      : MD TAZRI
@@ -262,7 +476,7 @@ main {
   min-width: 280px;
   width: 100%;
   max-width: 1111px;
-  height: 100%;
+  min-height: 100vh;
 }
 
 /**
@@ -273,13 +487,12 @@ main {
 *
 */
 .home {
-  border: 1px solid black;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 .home .home__about {
   min-height: 327px;
@@ -367,6 +580,21 @@ main {
 }
 
 /**
+* Name        : _upper_nav.scss
+* Author      : MD TAZRI
+* Date        : 7August2022
+* Description : Here describe upper nav
+*
+*/
+.home__uppernav {
+  position: absolute;
+  top: 0px;
+  transform: translate(0px, 10px);
+  font-size: 14px;
+  transition: all 0.2s linear;
+}
+
+/**
 * Name        : _title.scss
 * Author      : MD TAZRI
 * Date        : 3August2022
@@ -422,7 +650,6 @@ main {
 /******************** Necessary Function ********************/
 /************************************************************/
 .about {
-  border: 1px solid red;
   width: 100%;
   margin-top: 50px;
   display: flex;
@@ -743,7 +970,6 @@ main {
   }
 }
 .skill {
-  border: 1px solid aliceblue;
   display: flex;
   flex-direction: row wrap;
   justify-content: space-between;
@@ -808,7 +1034,6 @@ main {
 /******************** Necessary Function ********************/
 /************************************************************/
 .contact {
-  border: 1px solid orchid;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -879,7 +1104,6 @@ main {
 .contact__appboxs {
   width: 209px;
   padding: 5px;
-  border: 1px solid purple;
   display: flex;
   flex-direction: column;
   gap: 20px 0px;
@@ -966,6 +1190,121 @@ main {
     width: 100%;
   }
 }
+/**
+* Name        : _footer.scss
+* Author      : MD TAZRI
+* Date        : 6August2022
+* Description : Here Designing the footer components
+*
+*/
+/**
+* Name        : _variable
+* Author      : Md Tazri
+* Date        : 2August2022
+* Description : Here conatain the all variable
+*
+*/
+/*************************** Dark Theme Color ***************************/
+/************************************************************************/
+/*************************** Light Theme Color ***************************/
+/************************************************************************/
+/******************************** other *******************************/
+/******************************** ***** *******************************/
+/******************** Necessary Function ********************/
+/************************************************************/
+footer {
+  width: 100%;
+}
+
+.footer {
+  margin-top: 22px;
+  padding-top: 30px;
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px 0px;
+}
+.footer h2 {
+  font-size: 38px;
+}
+.footer .footer__nav {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0px 20px;
+}
+.footer .footer__nav span a {
+  font-size: 24px;
+}
+.footer ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0px 40px;
+}
+.footer ul li {
+  width: 40px;
+}
+.footer ul li a svg {
+  transition: all 0.3s linear;
+}
+.footer p {
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+/**
+* Name        : _footer.scss
+* Author      : MD TAZRI
+* Date        : 6August2022
+* Description : Here media query of footer
+*
+*/
+@media (max-width: 1115px) {
+  .footer h2 {
+    font-size: 30px;
+  }
+  .footer .footer__nav span a {
+    font-size: 21px;
+  }
+  .footer ul li {
+    width: 31px;
+  }
+  .footer p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .footer {
+    gap: 20px 0px;
+  }
+  .footer .footer__nav span a {
+    font-size: 18px;
+  }
+  .footer p {
+    margin-top: 8px;
+  }
+}
+@media (max-width: 315px) {
+  .footer .footer__nav span a {
+    font-size: 12px;
+  }
+}
+/**
+* Name        : _variable
+* Author      : Md Tazri
+* Date        : 2August2022
+* Description : Here conatain the all variable
+*
+*/
+/*************************** Dark Theme Color ***************************/
+/************************************************************************/
+/*************************** Light Theme Color ***************************/
+/************************************************************************/
+/******************************** other *******************************/
+/******************************** ***** *******************************/
+/******************** Necessary Function ********************/
+/************************************************************/
 /**
 * Name        : _variable
 * Author      : Md Tazri

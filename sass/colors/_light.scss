@@ -1,8 +1,8 @@
 /**
-* Name        : _dark.scss
+* Name        : _light.scss
 * Author      : MD TAZRI
-* Date        : 2August2022
-* Description : Here modify css color for dark class
+* Date        : 7August2022
+* Description : Here modify css color for light class
 *
 */
 
@@ -10,13 +10,13 @@
 
 
 /*********************** home ***********************/
-.dark{
-    background-color : $dark_body_bg;
-    color: $dark_text;
+.light{
+    background-color : $light_body_bg;
+    color: $light_text;
 }
 
-.dark button{
-    color: $dark_body_bg;
+.light button{
+    color: $light_body_bg;
     background: $secoundary_color;
     border: 1px solid $secoundary_color;
 
@@ -25,92 +25,92 @@
     }
 }
 
-.dark button{
+.light button{
     &:hover{
-        background-color: $dark_body_bg;
+        background-color: $light_body_bg;
     }
 }
 
-.dark .home__about--btns .cv{
-    background-color: $dark_body_bg;
+.light .home__about--btns .cv{
+    background-color: $light_body_bg;
     color: $secoundary_color;
 
     &:hover{
         background-color: $secoundary_color;
-        color: $dark_body_bg;
+        color: $light_body_bg;
     }
 }
 
-.dark .home__about--imgdiv{
-    background: $dark_home_imgbg;
+.light .home__about--imgdiv{
+    background: $light_home_imgbg;
 
     .effect{
-        background: $dark_home_imgeffect;
+        background: $light_home_imgeffect;
     }
 }
 
-.dark .home__scrolldown{
+.light .home__scrolldown{
     color : $home_srcoll_icon;
 
     &:hover{
-        color: $dark_text;
+        color: $light_text;
     }
 }
 
-.dark .home__icons svg{
+.light .home__icons svg{
     fill: $home_srcoll_icon;
 
     &:hover{
-        fill :$dark_text;
+        fill :$light_text;
     }
 }
 
-.dark .line{
+.light .line{
     background: $home_srcoll_icon;
 
     &:hover{
-        background: $dark_text;
+        background: $light_text;
     }
 }
 
-.dark .home__uppernav{
-    color: $dark_upper_nav;
+.light .home__uppernav{
+    color: $light_upper_nav;
     span a{
-        color: $dark_upper_nav;
+        color: $light_upper_nav;
 
         &:hover{
-            color : $dark_text;
+            color : $secoundary_color;
         }
     }
 }
 /*********************** **** ***********************/
 
 /*********************** title **********************/
-.dark .title{
+.light .title{
     h4{
-        color: $dark_text_light_mute;
+        color: $light_text_light_mute;
     }
 
     h2{
-        color: $dark_text;
+        color: $light_text;
     }
 }
 /*********************** ***** **********************/
 
 /********************* about_box ********************/
-.dark .about__imgdiv{
-    background: $dark_about_imgbg;
+.light .about__imgdiv{
+    background: $light_about_imgbg;
 
     .effect{
-        background: $dark_about_imgeffect;
+        background: $light_about_imgeffect;
     }
 }
 
-.dark .about_box{
-    background-color: $dark_about_box_bg;
+.light .about_box{
+    background-color: $light_about_box_bg;
 
     h3{
-        color: $dark_text;
+        color: $light_text;
     }
 
     svg{
@@ -118,21 +118,21 @@
     }
 }
 
-.dark .about__details .details{
-    color: $dark_text;
+.light .about__details .details{
+    color: $light_text;
 }
 /********************* ********* ********************/
 
 
 /*********************** skill **********************/
-.dark .skill__rows .row{
+.light .skill__rows .row{
     .skill_name{
-        color : $dark_text_light_mute;
+        color : $light_text_light_mute;
     }
 }
 
-.dark .skill__box{
-    background-color: $dark_skill_box_bg;
+.light .skill__box{
+    background-color: $light_skill_box_bg;
 
     h2{
         color: $secoundary_color;
@@ -143,56 +143,55 @@
 
 /********************** contact *********************/
 
-.dark .contact__appboxs{
+.light .contact__appboxs{
     .appbox{
-        background-color: $dark_contact_boxbg;
+        background-color: $light_contact_boxbg;
 
         .svgicon svg{
-            fill : $dark_text;
+            fill : $light_text;
         }
 
         h4 a{
             color: $secoundary_color;
 
             &:hover{
-                color: $dark_text;
+                color: $light_text;
             }
         }
     }
 }
 
-.dark .contact__inputboxs{
+.light .contact__inputboxs{
     
     input,textarea{
-        background-color: $dark_body_bg;
+        background-color: $light_body_bg;
         border: 2px solid $secoundary_color;
-        color: $dark_text;
+        color: $light_text;
 
         &:focus{
-            border: 2px solid $dark_text;
+            border: 2px solid $light_text;
         }
     }
 }
 /********************** ******* *********************/
 
 /********************** footer **********************/
-
-.dark .footer{
-    color: $dark_body_bg;
+.light .footer{
+    color: $light_body_bg;
 
     .footer__nav a{
-        color: $dark_body_bg;
+        color: $light_body_bg;
 
         &:hover{
-            color: $dark_text;
+            color: $light_text;
         }
     }
 
     ul li a svg{
-        fill: $dark_body_bg;
+        fill: $light_body_bg;
 
         &:hover{
-            fill: $dark_text;
+            fill: $light_text;
         }
     }
 }

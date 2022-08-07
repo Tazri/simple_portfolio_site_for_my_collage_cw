@@ -12,7 +12,8 @@
     box-sizing: border-box;
     font-family: myrecursive, Arial, Helvetica, sans-serif;
     font-weight: 400;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -40,6 +41,7 @@ svg{
 
 a{
     text-decoration: none;
+    color: inherit;
 }
 
 input:focus, textarea:focus{
@@ -49,4 +51,8 @@ input:focus, textarea:focus{
 @font-face {
     font-family: myrecursive;
     src: url(./../fonts/Recursive-VariableFont_CASL.ttf);
+}
+
+footer{
+    width: 100vw;
 }

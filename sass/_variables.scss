@@ -40,7 +40,7 @@ $dark_skill_small_text : #5E7C95;
 $dark_nav_bg : #090726; // 60% opacity
 $dark_nav_icon : #26234A;
 $dark_nav_separator : #26234A;
-$dark_nav_upper_nav : #3D3A60;
+$dark_upper_nav : #3D3A60;
 /************************************************************************/
 
 
@@ -106,6 +106,10 @@ $l_appbox_appname_address : 11px;
 $l_appbox_appname_sendmessage : 12px;
 $l_contact_input_width : 598px;
 $l_contact_input_font_size : 20px;
+$l_footer_title_size : 38px;
+$l_footer_nav_link_size : 24px;
+$l_footer_nav_icon_size : 40px;
+$l_footer_nav_copyright : 18px;
 
 // small
 $s_title_hfour : 8px;
@@ -117,12 +121,18 @@ $s_skill_check_title_font_size : 10px;
 $s_skill_box_width : 304px;
 $s_appbox_width_size : 290px;
 $s_appbox_icon_size : 23px;
+$s_footer_title_size : 30px;
+$s_footer_nav_link_size : 21px;
+$s_footer_nav_icon_size : 31px;
+$s_footer_nav_copyright : 16px;
+
 
 // extra small
 $xs_about_img : 193px;
 $xs_skill_check_icon_size : 15px;
 $xs_skill_check_name_font_size : 14px;
 $xs_skill_check_title_font_size : 8px;
+$xs_footer_nav_link_size : 18px;
 
 // extra extra small
 $xxs_skill_check_icon_size : 12px;

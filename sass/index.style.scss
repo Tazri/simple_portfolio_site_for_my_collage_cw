@@ -3,7 +3,7 @@
 // import colors
 @import './colors/default';
 @import './colors/dark';
-
+@import './colors/light';
 
 // import default thing
 @import 'default';
@@ -28,6 +28,9 @@
 
 // contacts
 @import './components/contact';
+
+// footer
+@import './components/footer';
 
 // medai query
 @import './media/home';

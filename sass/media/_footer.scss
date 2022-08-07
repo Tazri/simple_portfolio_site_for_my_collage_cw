@@ -1,0 +1,53 @@
+/**
+* Name        : _footer.scss
+* Author      : MD TAZRI
+* Date        : 6August2022
+* Description : Here media query of footer
+*
+*/
+
+@media (max-width : 1115px) {
+    .footer{    
+        h2{
+            font-size: $s_footer_title_size;
+        }
+    
+        .footer__nav{    
+            span a{
+                font-size: $s_footer_nav_link_size;
+            }
+        }
+    
+        ul{
+            li{
+                width : $s_footer_nav_icon_size;
+            }
+        }
+    
+        p{
+            font-size : $s_footer_nav_copyright;
+        }
+    }
+    
+}
+
+@media (max-width : 600px) {
+    .footer{
+        gap : 20px 0px;
+        .footer__nav span a {
+            font-size : $xs_footer_nav_link_size;
+        }
+
+        p{
+            margin-top: 8px
+        }
+    }
+}
+
+@media (max-width : 315px) {
+    .footer .footer__nav span a{
+        font-size: 12px;
+    }
+}
+
+@import './../variables';
