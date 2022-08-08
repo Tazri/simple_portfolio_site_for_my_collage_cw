@@ -37,7 +37,7 @@ $dark_contact_boxbg : #26234A;
 $dark_skill_small_text : #5E7C95;
 
 // dark navigator
-$dark_nav_bg : #090726; // 60% opacity
+$dark_nav_bg : rgba(9, 7, 38, 0.604); // 60% opacity
 $dark_nav_icon : #26234A;
 $dark_nav_separator : #26234A;
 $dark_upper_nav : #3D3A60;
@@ -67,7 +67,7 @@ $light_contact_boxbg : #E1F1FF;
 $light_skill_small_text : #5E7C95;
 
 // light navigator
-$light_nav_bg : #CDE5F9; // 16% opacity
+$light_nav_bg : #cde5f940; // 16% opacity
 $light_nav_icon : #D4EBFF;
 $light_nav_separator : #f0f8ff;
 $light_upper_nav : none;
@@ -110,6 +110,9 @@ $l_footer_title_size : 38px;
 $l_footer_nav_link_size : 24px;
 $l_footer_nav_icon_size : 40px;
 $l_footer_nav_copyright : 18px;
+$l_nav_width : 328px;
+$l_nav_icon_width : 33px;
+$l_nav_line_width : 2px;
 
 // small
 $s_title_hfour : 8px;
@@ -125,7 +128,9 @@ $s_footer_title_size : 30px;
 $s_footer_nav_link_size : 21px;
 $s_footer_nav_icon_size : 31px;
 $s_footer_nav_copyright : 16px;
-
+$s_nav_width : 250px;
+$s_nav_icon_width : 20px;
+$s_nav_line_width : 2px; 
 
 // extra small
 $xs_about_img : 193px;
@@ -151,5 +156,16 @@ $xxs_skill_check_title_font_size : 5px;
 @mixin height_width($px){
     width: $px;
     height : $px;
+}
+
+@mixin prefix($props,$value){
+    -webkit-#{$props} : $value;
+    -o-#{$props} : #{$value};
+    -ms-#{$props} : #{$value};
+    -apple-#{$props} : #{$value};
+    -moz-#{$props} : #{$value};
+    -rim-#{$props} : #{$value};
+    -xv-#{$props} : #{$value};
+    #{$props} : #{$value};
 }
 /************************************************************/

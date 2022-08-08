@@ -1,0 +1,80 @@
+/**
+* Name        : _nav.scss
+* Author      : MD TAZRI
+* Date        : 8August2022
+* Description : Here design the nav
+*
+*/
+
+@import './../variables';
+
+nav{
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%,-30px);
+    width: $l_nav_width;
+    overflow: hidden;
+    border-radius: 12px;
+
+    ul{
+        list-style: none;
+        padding: 10px 12px;
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0px 10px;
+
+        li{
+            width: $l_nav_icon_width;
+            height: 100%;
+            a{
+                cursor: pointer;
+            }
+        }
+
+        .navline{
+            width: $l_nav_line_width;
+            height: 20px;
+        }
+
+        
+        .themeicon{
+            position: relative;
+            
+            .useless{
+                opacity: 0%;
+            }
+
+            .sun,.moon{
+                left: 0px;
+                top: 0px;
+                position: absolute;
+                cursor: pointer;
+                transition: all 0.3s linear;
+            }
+        }
+
+        .moonshow{
+            .sun{
+                transform: translate(0px,170%);
+            }
+        }
+
+        .sunshow{
+            .moon{
+                transform: translate(0px,-170%);
+            }
+        }
+    }
+}
+
+body .hide{
+    transform: translate(-50%,130px);
+    opacity: 0;
+}
+
+// media query
+@import './../media/nav';

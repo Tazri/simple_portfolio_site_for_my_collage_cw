@@ -197,3 +197,22 @@
     }
 }
 /********************** ****** *********************/
+
+/****************** nav *****************/
+nav{
+    background-color: $dark_nav_bg;
+
+    .icon svg{
+        fill: lighten($color: $dark_nav_icon, $amount: 4);
+
+        &:hover{
+            fill: $dark_text;
+        }
+    }
+
+    ul .navline{
+        background-color: lighten($color: $dark_nav_separator, $amount: 2);
+    }
+
+}
+/****************** *** *****************/

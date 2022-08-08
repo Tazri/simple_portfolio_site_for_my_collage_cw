@@ -196,3 +196,22 @@
     }
 }
 /********************** ****** *********************/
+
+/****************** nav *****************/
+nav{
+    background-color: darken($color: $light_nav_bg, $amount: 60);
+
+    .icon svg{
+        fill: lighten($color: $light_nav_icon, $amount: 4);
+
+        &:hover{
+            fill: $light_text;
+        }
+    }
+
+    ul .navline{
+        background-color: lighten($color: $light_nav_separator, $amount: 2);
+    }
+
+}
+/****************** *** *****************/

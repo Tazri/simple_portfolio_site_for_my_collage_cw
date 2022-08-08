@@ -231,6 +231,21 @@ footer {
 }
 
 /********************** ****** *********************/
+/****************** nav *****************/
+nav {
+  background-color: rgba(9, 7, 38, 0.604);
+}
+nav .icon svg {
+  fill: #2d2a58;
+}
+nav .icon svg:hover {
+  fill: #f0f8ff;
+}
+nav ul .navline {
+  background-color: #2a2651;
+}
+
+/****************** *** *****************/
 /**
 * Name        : _light.scss
 * Author      : MD TAZRI
@@ -407,6 +422,21 @@ footer {
 }
 
 /********************** ****** *********************/
+/****************** nav *****************/
+nav {
+  background-color: rgba(16, 79, 132, 0.2509803922);
+}
+nav .icon svg {
+  fill: #e8f4ff;
+}
+nav .icon svg:hover {
+  fill: #201E39;
+}
+nav ul .navline {
+  background-color: #fafdff;
+}
+
+/****************** *** *****************/
 /**
 * Name        : file name
 * Author      : auther name
@@ -414,17 +444,54 @@ footer {
 * Description : Here costomize all default thing
 *
 */
+/**
+* Name        : _variable
+* Author      : Md Tazri
+* Date        : 2August2022
+* Description : Here conatain the all variable
+*
+*/
+/*************************** Dark Theme Color ***************************/
+/************************************************************************/
+/*************************** Light Theme Color ***************************/
+/************************************************************************/
+/******************************** other *******************************/
+/******************************** ***** *******************************/
+/******************** Necessary Function ********************/
+/************************************************************/
 * {
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -apple-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -rim-box-sizing: border-box;
+  -xv-box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
   font-family: myrecursive, Arial, Helvetica, sans-serif;
   font-weight: 400;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -apple-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -rim-transition: all 0.3s linear;
+  -xv-transition: all 0.3s linear;
   transition: all 0.3s linear;
+  -webkit-scroll-behavior: smooth;
+  -o-scroll-behavior: smooth;
+  -ms-scroll-behavior: smooth;
+  -apple-scroll-behavior: smooth;
+  -moz-scroll-behavior: smooth;
+  -rim-scroll-behavior: smooth;
+  -xv-scroll-behavior: smooth;
   scroll-behavior: smooth;
 }
 
 body {
+  position: relative;
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
@@ -439,11 +506,25 @@ button {
   cursor: pointer;
   border-radius: 5px;
   font-size: 14px;
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -apple-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -rim-transition: all 0.5s linear;
+  -xv-transition: all 0.5s linear;
   transition: all 0.5s linear;
 }
 
 svg {
   width: 100%;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -apple-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -rim-transition: all 0.3s linear;
+  -xv-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
 
@@ -1219,7 +1300,7 @@ footer {
 .footer {
   margin-top: 22px;
   padding-top: 30px;
-  padding-bottom: 90px;
+  padding-bottom: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1305,6 +1386,116 @@ footer {
 /******************************** ***** *******************************/
 /******************** Necessary Function ********************/
 /************************************************************/
+/**
+* Name        : _nav.scss
+* Author      : MD TAZRI
+* Date        : 8August2022
+* Description : Here design the nav
+*
+*/
+/**
+* Name        : _variable
+* Author      : Md Tazri
+* Date        : 2August2022
+* Description : Here conatain the all variable
+*
+*/
+/*************************** Dark Theme Color ***************************/
+/************************************************************************/
+/*************************** Light Theme Color ***************************/
+/************************************************************************/
+/******************************** other *******************************/
+/******************************** ***** *******************************/
+/******************** Necessary Function ********************/
+/************************************************************/
+nav {
+  position: fixed;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, -30px);
+  width: 328px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+nav ul {
+  list-style: none;
+  padding: 10px 12px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px 10px;
+}
+nav ul li {
+  width: 33px;
+  height: 100%;
+}
+nav ul li a {
+  cursor: pointer;
+}
+nav ul .navline {
+  width: 2px;
+  height: 20px;
+}
+nav ul .themeicon {
+  position: relative;
+}
+nav ul .themeicon .useless {
+  opacity: 0%;
+}
+nav ul .themeicon .sun, nav ul .themeicon .moon {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+nav ul .moonshow .sun {
+  transform: translate(0px, 170%);
+}
+nav ul .sunshow .moon {
+  transform: translate(0px, -170%);
+}
+
+body .hide {
+  transform: translate(-50%, 130px);
+  opacity: 0;
+}
+
+/**
+* Name        : _nav.scss
+* Author      : MD TAZRI
+* Date        : 8August2022
+* Description : Here media query of nav
+*
+*/
+/**
+* Name        : _variable
+* Author      : Md Tazri
+* Date        : 2August2022
+* Description : Here conatain the all variable
+*
+*/
+/*************************** Dark Theme Color ***************************/
+/************************************************************************/
+/*************************** Light Theme Color ***************************/
+/************************************************************************/
+/******************************** other *******************************/
+/******************************** ***** *******************************/
+/******************** Necessary Function ********************/
+/************************************************************/
+@media (max-width: 592px) {
+  nav {
+    width: 250px;
+  }
+  nav ul li {
+    width: 20px;
+  }
+  nav ul .navline {
+    width: 2px;
+  }
+}
 /**
 * Name        : _variable
 * Author      : Md Tazri
