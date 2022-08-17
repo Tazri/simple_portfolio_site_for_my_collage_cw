@@ -1,0 +1,37 @@
+/**
+* Name        : _skill_row.scss
+* Author      : MD TAZRI
+* Date        : 3August2022
+* Description : Here I design the .skill_row class except color
+*
+*/
+
+@import './../variables';
+
+.skill__rows .row{
+    // displaying
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 98px;
+    max-width: 139px;
+    justify-content: flex-start;
+    align-items: center;
+
+
+    // icon
+    .svgicon{
+        @include height_width($xl_skill_check_icon_size);
+        margin-right: 10px;
+    }
+
+    // design the skill which is name after check box
+    .skill_name{
+        h3 {
+            font-size: $xl_skill_check_name_font_size;
+        }
+
+        p{
+            font-size: $xl_skill_check_title_font_size;
+        }
+    }
+}

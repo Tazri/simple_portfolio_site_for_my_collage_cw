@@ -47,6 +47,10 @@
   color: #5E7C95;
 }
 
+.dark .skill__rows .row .svgicon {
+  fill: #4AA7E4;
+}
+
 /**
 * Name        : _dark.scss
 * Author      : MD TAZRI
@@ -158,6 +162,12 @@
 }
 
 /********************* ********* ********************/
+/*********************** skill **********************/
+.dark .skill__rows .row .skill_name {
+  color: #D0E3F3;
+}
+
+/*********************** ***** **********************/
 /**
 * Name        : file name
 * Author      : auther name
@@ -463,6 +473,59 @@ main {
 }
 .about_box:hover {
   transform: scale(1.1);
+}
+
+/**
+* Name        : _skill.scess
+* Author      : MD TAZRI
+* Date        : 3August2022
+* Description : Here I designing the .skill class except color
+*
+*/
+/**
+* Name        : _skill_row.scss
+* Author      : MD TAZRI
+* Date        : 3August2022
+* Description : Here I design the .skill_row class except color
+*
+*/
+/**
+* Name        : _variable
+* Author      : Md Tazri
+* Date        : 2August2022
+* Description : Here conatain the all variable
+*
+*/
+/*************************** Dark Theme Color ***************************/
+/************************************************************************/
+/*************************** Light Theme Color ***************************/
+/************************************************************************/
+/******************************** other *******************************/
+/******************************** ***** *******************************/
+/******************** Necessary Function ********************/
+/************************************************************/
+.skill__rows .row {
+  display: flex;
+  flex-flow: row wrap;
+  flex-basis: 98px;
+  max-width: 139px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.skill__rows .row .svgicon {
+  width: 19px;
+  height: 19px;
+  margin-right: 10px;
+}
+.skill__rows .row .skill_name h3 {
+  font-size: 20px;
+}
+.skill__rows .row .skill_name p {
+  font-size: 10px;
+}
+
+.skill .title {
+  margin: 30px;
 }
 
 /**

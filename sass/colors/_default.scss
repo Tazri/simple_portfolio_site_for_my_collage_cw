@@ -19,3 +19,9 @@
 .muted-text{
     color : $small_text;
 }
+
+.dark .skill__rows .row{
+    .svgicon{
+        fill: $secoundary_color;
+    }
+}

@@ -82,6 +82,9 @@ $xl_img_up_radius : 205px;
 $xl_title_hfour : 15px;
 $xl_title_htwo : 30px;
 $xl_about_img : 304px;
+$xl_skill_check_icon_size : 19px;
+$xl_skill_check_name_font_size : 20px;
+$xl_skill_check_title_font_size : 10px;
 
 // large
 $l_font_home_im : 14px;
@@ -91,19 +94,34 @@ $l_img_up_radius : 138px;
 $l_title_hfour : 12px;
 $l_title_htwo : 24px;
 $l_about_img : 270px;
+$l_skill_check_icon_size : 19px;
+$l_skill_check_name_font_size : 20px;
+$l_skill_check_title_font_size : 10px;
 
 // small
 $s_title_hfour : 8px;
 $s_title_htwo : 17px;
 $s_about_img : 245px;
+$s_skill_check_icon_size : 19px;
+$s_skill_check_name_font_size : 20px;
+$s_skill_check_title_font_size : 10px;
 
 // extra small
 $xs_about_img : 193px;
+$xs_skill_check_icon_size : 15px;
+$xs_skill_check_name_font_size : 14px;
+$xs_skill_check_title_font_size : 8px;
+
 /******************************** ***** *******************************/
 
 /******************** Necessary Function ********************/
 @mixin radius_up($px:120px){
     border-top-left-radius: $px;
     border-top-right-radius: $px;
+}
+
+@mixin height_width($px){
+    width: $px;
+    height : $px;
 }
 /************************************************************/
